@@ -45,6 +45,7 @@ new ManifestPlugin({
 
 * `fileName`: The manifest filename in your output directory (`manifest.json` by default).
 * `basePath`: A path prefix for all file references. Useful for including your output path in the manifest.
+* `outputFolder`: output directory for manifest file (webpack's `output.path` by default).
 * `publicPath`: A path prefix used only on output files, similar to Webpack's  [output.publicPath](https://github.com/webpack/docs/wiki/configuration#outputpublicpath). Ignored if `basePath` was also provided.
 * `stripSrc`: removes unwanted strings from source filenames
 * `writeToFileEmit`: If set to `true` will emit to build folder and memory in combination with `webpack-dev-server`   
